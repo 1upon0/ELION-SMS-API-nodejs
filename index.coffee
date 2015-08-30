@@ -19,7 +19,7 @@ module.exports = {
         send: opt.sender
         dest: opt.dest
         msg: opt.msg
-      }}, (err,resp)->
+      }, rejectUnauthorized: false}, (err,resp)->
         if(err)
           return cb(err);
         if(regex = /0x\d+/.exec(resp.body))

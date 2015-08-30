@@ -29,7 +29,8 @@
           send: opt.sender,
           dest: opt.dest,
           msg: opt.msg
-        }
+        },
+        rejectUnauthorized: false
       }, function(err, resp) {
         var regex;
         if (err) {
