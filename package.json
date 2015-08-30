@@ -1,0 +1,25 @@
+{
+  "name": "elion-sms-api",
+  "version": "1.0.0",
+  "description": "Send transactional sms using smssolution.co.in/elion tech sms api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1upon0/ELION-SMS-API-nodejs"
+  },
+  "keywords": [
+    "sms-api"
+  ],
+  "author": "http://github.com/1upon0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1upon0/ELION-SMS-API-nodejs/issues"
+  },
+  "homepage": "https://github.com/1upon0/ELION-SMS-API-nodejs",
+  "dependencies": {
+    "request": "^2.61.0"
+  }
+}
